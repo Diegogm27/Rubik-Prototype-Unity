@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Style.uss?fileID=7433441132597879392&amp;guid=29cb018c6befe574d90d19941e6a9b40&amp;type=3#Style" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: auto; align-items: auto; justify-content: space-around; width: auto; height: auto; flex-direction: column;">
+        <ui:VisualElement name="Container" style="flex-grow: 0; background-color: rgba(152, 152, 152, 0.59); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 5%; padding-right: 5%; padding-top: 0; padding-bottom: 0; justify-content: center; align-items: center; align-self: center; width: auto; -unity-background-image-tint-color: rgb(255, 255, 255); border-top-left-radius: 15%; border-bottom-left-radius: 15%; border-top-right-radius: 15%; border-bottom-right-radius: 15%; height: auto; flex-basis: auto; min-width: auto; min-height: auto; flex-direction: column; left: auto; right: 30%;">
+            <ui:Label tabindex="-1" text="Congratulations!" display-tooltip-when-elided="true" />
+            <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="MenuButton" class="buttonStyle" style="max-width: none; -unity-text-align: middle-center;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="ExitButton" class="buttonStyle" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
